@@ -1,4 +1,4 @@
-# Currency_Converter_Chatbot
+# Currency_Converter_Chatbot with Rasa 2.0
 
 ## create virtual environment
 ```
