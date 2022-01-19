@@ -1,0 +1,34 @@
+version: "2.0"
+
+stories:
+
+- story: story 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: story 2
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+
+- story: story 3
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+
+
+- story: story 6(summary)
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  
+
+- story: story 9(currency)
+  steps:
+  - intent: currency
+  - action: currency_form
+  - action: action_currency
+  - action: action_clear
